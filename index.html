@@ -7,27 +7,66 @@
   <meta name="description" content="Nicole E. Richards, Human Development and Family Sciences, The University of Texas at Austin. On the job market.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="home">
-    <p class="badge">On the job market</p>
-
-    <h1>Nicole E. Richards, MA</h1>
-
-    <p class="affiliation">
-      Human Development and Family Sciences<br>
-      The University of Texas at Austin
-    </p>
-
-    <nav class="profiles" aria-label="Profiles">
-      <a href="https://www.linkedin.com/in/nicolerichards28/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=Cyvttq0AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
-      <a href="https://www.researchgate.net/profile/Nicole-Richards-19" target="_blank" rel="noopener">ResearchGate</a>
+  <header class="site-header">
+    <a class="site-name" href="index.html">Nicole E. Richards</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="about.html">About Me</a>
+      <a href="research.html">Research &amp; Publications</a>
+      <a href="teaching.html">Teaching &amp; Mentorship</a>
     </nav>
+  </header>
 
-    <a class="email-btn" href="mailto:n.richards097@utexas.edu">Email me</a>
+  <main class="home">
+    <div class="home-text">
+      <p class="badge">On the job market</p>
+
+      <h1>Nicole E. Richards, MA</h1>
+
+      <p class="role">Doctoral Student</p>
+
+      <p class="affiliation">
+        Human Development and Family Sciences<br>
+        The University of Texas at Austin
+      </p>
+
+      <div class="home-actions">
+        <a class="email-btn" href="mailto:n.richards097@utexas.edu">Email me</a>
+        <nav class="profiles" aria-label="Profiles">
+          <a href="https://www.linkedin.com/in/nicolerichards28/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=Cyvttq0AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Nicole-Richards-19" target="_blank" rel="noopener">ResearchGate</a>
+        </nav>
+      </div>
+
+      <hr class="home-divider">
+
+      <a class="work-bubble" href="research.html">
+        <span class="pulse" aria-hidden="true"></span>
+        <span class="work-label">See my current work on health and aging</span>
+        <span class="work-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="photo">
+      <div class="photo-frame">
+        <span class="tape" aria-hidden="true"></span>
+        <img src="photo.jpg" alt="Nicole E. Richards smiling outdoors under a willow tree" width="900" height="900">
+      </div>
+    </div>
   </main>
+  <aside class="closing-quote">
+    <p>“May all your wrinkles be laugh lines.”</p>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <span>© 2026 Nicole E. Richards</span>
+      <a href="mailto:n.richards097@utexas.edu">n.richards097@utexas.edu</a>
+    </div>
+  </footer>
 </body>
 </html>
